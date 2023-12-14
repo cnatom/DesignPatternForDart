@@ -1,3 +1,13 @@
+/*
+ * @Author: CUMT-Atom cnatom@foxmail.com
+ * @Date: 2023-12-14 17:39:37
+ * @LastEditors: CUMT-Atom cnatom@foxmail.com
+ * @LastEditTime: 2023-12-14 20:25:30
+ * @FilePath: /test_design_pattern/behavioral_pattern/command_complete.dart
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+ */
 
 abstract class Command{
   void execute();
@@ -75,12 +85,6 @@ class TextEditor {
   void deleteText(int length) {
     _text = _text.substring(0, _text.length - length);
   }
-
-  void copyText() {
-    // 实现复制文本的逻辑
-  }
-
-  // 其他编辑器相关的方法
 }
 
 

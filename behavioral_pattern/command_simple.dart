@@ -1,3 +1,13 @@
+/*
+ * @Author: CUMT-Atom cnatom@foxmail.com
+ * @Date: 2023-12-14 17:02:32
+ * @LastEditors: CUMT-Atom cnatom@foxmail.com
+ * @LastEditTime: 2023-12-14 20:25:39
+ * @FilePath: /test_design_pattern/behavioral_pattern/command_simple.dart
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+ */
 
 
 abstract class Command{
